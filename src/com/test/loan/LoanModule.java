@@ -8,6 +8,7 @@ public class LoanModule {
     final static int PERCENTAGE = 100;
 
     public static void main(String[] args) {
+        System.out.println("EMI Calcualtor ");
 
         double principal =  readNumber("Principal: ",10000,1000000);
         float annualInterest =  (float) readNumber("Annual Interest Rate: ",0,10);
